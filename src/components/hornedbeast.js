@@ -1,8 +1,12 @@
 import React from 'react'
 import "../components/hornedbeast.css"
 
-export default function hornedbeast() {
+export default function hornedbeast(image_url, title, description) {
   return (
-    <div></div>
+    <div className = "hbContainer">
+        <title />
+        <image_url />
+        <description />
+    </div>
   )
 }
